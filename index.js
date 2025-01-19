@@ -8,3 +8,7 @@ const obj = {
 function getName(){
     console.log(obj.name);
 }
+
+function checkAge(){
+    return obj.age >= 18;
+}
